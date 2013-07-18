@@ -11,6 +11,8 @@ Movimiento:
 SWAP entre elementos contiguos, intercambiando el elemento de la izquierda hacia la derecha y viceversa. No se realiza movimiento en X10.
                     
 Ejemplo:
-X2-X1-X3-X4-X5-X6-X7-X8-X9-X10
-X1-X3-X2-X4-X5-X6-X7-X8-X9-X10
-X1-X2-X4-X3-X5-X6-X7-X8-X9-X10
+{X1-X2-X3-X4-X5-X6-X7-X8-X9-X10}
+
+M_1: {X2-X1-X3-X4-X5-X6-X7-X8-X9-X10}
+M_2: {X1-X3-X2-X4-X5-X6-X7-X8-X9-X10}
+M_3: {X1-X2-X4-X3-X5-X6-X7-X8-X9-X10}
